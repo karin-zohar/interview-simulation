@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/interview-simulation/static/css/main.2e32eeb3.css",
+    "main.js": "/interview-simulation/static/js/main.4ea6ee05.js",
+    "static/js/787.aedba692.chunk.js": "/interview-simulation/static/js/787.aedba692.chunk.js",
+    "static/media/Livvic-MediumItalic.ttf": "/interview-simulation/static/media/Livvic-MediumItalic.c388d554d36321255ab9.ttf",
+    "static/media/Livvic-Bold.ttf": "/interview-simulation/static/media/Livvic-Bold.089af19ac41ce144a96c.ttf",
+    "static/media/Livvic-SemiBold.ttf": "/interview-simulation/static/media/Livvic-SemiBold.c79c53d29c413ab69adb.ttf",
+    "static/media/Outfit-SemiBold.ttf": "/interview-simulation/static/media/Outfit-SemiBold.ea851e9b6c1d21f620c1.ttf",
+    "index.html": "/interview-simulation/index.html",
+    "main.2e32eeb3.css.map": "/interview-simulation/static/css/main.2e32eeb3.css.map",
+    "main.4ea6ee05.js.map": "/interview-simulation/static/js/main.4ea6ee05.js.map",
+    "787.aedba692.chunk.js.map": "/interview-simulation/static/js/787.aedba692.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e32eeb3.css",
+    "static/js/main.4ea6ee05.js"
+  ]
+}
