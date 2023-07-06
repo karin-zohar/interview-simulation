@@ -3,24 +3,78 @@
         display: flex;
         padding-block: 70px;
         justify-content: space-between;
-        // border: solid 2px red;
-        
+
         .logo-nav {
             display: flex;
-            // border: solid 2px yellow;
             align-items: center;
 
             .logo {
                 margin-inline-end: 8px;
             }
 
-            .app-nav a {
-                align-self: end;
+            .app-nav {
+                display: none;
+
+                @include for-narrow-layout {
+                    display: flex;
+                }
+
+                a {
+                    align-self: end;
+                }
             }
+
         }
 
         .contact-us-btn {
-           @include btn-1($white1, $black1);
+            display: none;
+
+            @include for-narrow-layout {
+                display: inline-block;
+            }
+
+            @include btn-1($white1, $black1);
+        }
+    }
+
+    .header-menu {
+        
+        @include for-narrow-layout {
+            display: none;
+        }
+
+        display: inline-block;
+
+        .header-menu-btn {
+            border: none;
+            width: 24px;
+            height: 20px;
+            background-repeat: none;
+            background-color: transparent;
+            padding: 0;
+            background-image: url('https://res.cloudinary.com/dqhfnvtca/image/upload/v1688644398/icon-hamburger_adrz6n.svg');
+        }
+    }
+
+
+}
+.drawer-content-wrapper {
+    height: 100vh;
+    background-color: $menu-bgc;
+
+    .drawer-content {
+        padding: 48px;
+
+        a {
+            padding-block: 12px;
+            margin-inline: 0;
+
+            color: $white1;
+        }
+
+        .contact-us-btn {
+            @include btn-1($white1, $black1);
+            margin-block-start: 45px;
         }
     }
 }

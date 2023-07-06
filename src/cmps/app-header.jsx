@@ -1,5 +1,6 @@
 import { Logo } from './logo'
 import { AppNav } from './app-nav'
+import { MenuDrawer } from './menu-drawer'
 
 export function AppHeader() {
     return (
@@ -12,6 +13,10 @@ export function AppHeader() {
                 <button className="contact-us-btn">
                     contact us
                 </button>
+
+                <div className="header-menu">
+                    <MenuDrawer />
+                </div>
             </section>
         </header>
     )

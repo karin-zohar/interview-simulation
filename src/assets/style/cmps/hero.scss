@@ -8,11 +8,12 @@
     background-color: $hero-bgc;
     padding-block: $hero-padding-mobile;
     height: $hero-height-narrow;
-    
+
     @include for-narrow-layout {
         padding-block-start: hero-padding-narrow;
         padding-block-end: hero-padding-wide;
     }
+
     @include for-wide-layout {
         height: $hero-height-wide;
         padding-block: $hero-padding-wide;
@@ -20,37 +21,44 @@
 
     .hero-content {
         display: grid;
-        justify-content: space-between; 
+        justify-content: space-between;
         gap: 0.8em;
         text-align: center;
 
         @include for-narrow-layout {
-            // background-color: yellow;
             gap: 2em;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr;
             padding-inline: 155px;
         }
-        
+
         @include for-wide-layout {
+            gap: 0;
             text-align: left;
-            // background-color: purple;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
             padding-inline: 0px;
+
         }
 
         h1 {
-            font-size: 5.5rem;
+            // font-size: 5.5rem;
             line-height: 100%;
+
+
+
+            @include for-mobile-layout {
+                font-size: rem(40px);
+            }
 
             @include for-narrow-layout {
                 font-size: rem(64px);
             }
 
-            @include for-mobile-layout {
-                font-size: rem(40px);
+            @include for-wide-layout {
+                font-size: rem(92px);
             }
+
             span {
                 color: $accent1;
             }
@@ -60,23 +68,21 @@
             height: 100%;
             display: flex;
             justify-self: end;
+            font-size: 0.8rem;
+            line-height: 28px;
+            letter-spacing: 0;
+
             p {
                 @include for-wide-layout {
                     font-size: 1rem;
-                }
-                font-size: 0.8rem;
-                line-height: 28px;
-                letter-spacing: 0;
-                
-                @include for-wide-layout {
                     align-self: end;
                     max-width: 445px;
                 }
-                
+
             }
 
 
         }
     }
-    
+
 }
