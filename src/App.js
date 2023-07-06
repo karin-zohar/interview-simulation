@@ -14,6 +14,7 @@ function App() {
         <main>
           <Routes>
             <Route element={<HomePage />} path="/" />
+            <Route element={<HomePage />} path="/about" />
           </Routes>
         </main>
       </section>
