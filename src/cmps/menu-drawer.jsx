@@ -31,7 +31,7 @@ export function MenuDrawer() {
                         onClose={toggleDrawer(anchor, false)}
                     >
                         <Box
-                            sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
+                            sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 260 }}
                             role="presentation"
                             onClick={toggleDrawer(anchor, false)}
                             onKeyDown={toggleDrawer(anchor, false)}
@@ -40,7 +40,12 @@ export function MenuDrawer() {
                                 <div className="drawer-content">
                                     <AppNav />
                                     <button className="contact-us-btn ">contact us</button>
+
+
                                 </div>
+                                    <div className="ornaments">
+                                        <img className="ornament-circle" src="https://res.cloudinary.com/dqhfnvtca/image/upload/v1688646618/Combined_Shape_Copy_o2chxb.svg" alt="ornament" />
+                                    </div>
                             </div>
 
                         </Box>

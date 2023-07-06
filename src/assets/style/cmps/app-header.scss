@@ -61,9 +61,10 @@
 .drawer-content-wrapper {
     height: 100vh;
     background-color: $menu-bgc;
-
+    
     .drawer-content {
         padding: 48px;
+        display: inline-block;
 
         a {
             padding-block: 12px;
@@ -76,5 +77,24 @@
             @include btn-1($white1, $black1);
             margin-block-start: 45px;
         }
+
     }
+    .ornaments {
+        position: absolute;
+        z-index: 20;
+        width: 80%;
+        height:200px;
+        bottom: 0;
+        overflow: hidden;
+        right: 0;
+    
+        .ornament-circle {
+            object-fit:contain;
+            position:relative;
+            height:200px;
+            width: 200px;
+            right: -50%;
+        }
+    }
+    
 }
