@@ -5,6 +5,7 @@ import './assets/style/main.scss'
  
 import {AppHeader} from './cmps/app-header'
 import { HomePage } from './pages/home-page'
+import { AboutPage } from './pages/about-page'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <main>
           <Routes>
             <Route element={<HomePage />} path="/" />
-            <Route element={<HomePage />} path="/about" />
+            <Route element={<AboutPage />} path="/about" />
           </Routes>
         </main>
       </section>
