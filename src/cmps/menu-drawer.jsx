@@ -45,6 +45,7 @@ export function MenuDrawer() {
                                 </div>
                                     <div className="ornaments">
                                         <img className="ornament-circle" src="https://res.cloudinary.com/dqhfnvtca/image/upload/v1688646618/Combined_Shape_Copy_o2chxb.svg" alt="ornament" />
+                                        <img className="ornament-lines" src="https://res.cloudinary.com/dqhfnvtca/image/upload/v1688648234/Combined_Shape_q8gln2.svg" alt="ornament" />
                                     </div>
                             </div>
 
