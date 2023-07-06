@@ -1,7 +1,7 @@
 {
   "name": "interview",
   "version": "0.1.0",
-  "homepage": "https://karin-zohar.github.io/interview-simulation/",
+  "homepage": "https://karin-zohar.github.io/interview-simulation",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",

@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client'
 import './assets/style/main.scss'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-import { HashRouter as Router } from "react-router-dom";
+// import { HashRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-    <Router>
+    // <Router>
         <App />
-    </Router>
+    // </Router>
 
 )
 

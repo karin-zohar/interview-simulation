@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 import './assets/style/main.scss'
  
 import {AppHeader} from './cmps/app-header'
