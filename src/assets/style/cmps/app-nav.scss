@@ -1,0 +1,18 @@
+.app-nav {
+    display: flex;
+    flex-direction: column;
+    a {
+        margin-inline:40px;
+        // margin-block: 12px;
+        font-size: 1em;
+
+        &:hover {
+            color: $accent1;
+        }
+    }
+
+    @include for-narrow-layout {
+        margin-block: 0;
+        flex-direction: row;
+    }
+}

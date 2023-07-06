@@ -1,0 +1,26 @@
+.app-header {
+    .header-content {
+        display: flex;
+        padding-block: 70px;
+        justify-content: space-between;
+        // border: solid 2px red;
+        
+        .logo-nav {
+            display: flex;
+            // border: solid 2px yellow;
+            align-items: center;
+
+            .logo {
+                margin-inline-end: 8px;
+            }
+
+            .app-nav a {
+                align-self: end;
+            }
+        }
+
+        .contact-us-btn {
+           @include btn-1($white1, $black1);
+        }
+    }
+}
